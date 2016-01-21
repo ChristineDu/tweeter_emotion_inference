@@ -1,0 +1,25 @@
+@relation tweet_features
+
+@attribute First-person-pronounsnumeric
+@attribute Second-person-pronounsnumeric
+@attribute Third-person-pronounsnumeric
+@attribute Coordinating-conjunctionsnumeric
+@attribute Past-tense-verbsnumeric
+@attribute Future-tense-verbsnumeric
+@attribute Commasnumeric
+@attribute colons-and-semi-colonsnumeric
+@attribute Dashesnumeric
+@attribute Parenthesesnumeric
+@attribute Ellipsesnumeric
+@attribute Common-nounsnumeric
+@attribute Proper-nounsnumeric
+@attribute Adverbsnumeric
+@attribute wh-wordsnumeric
+@attribute Modern-slang-acroynmsnumeric
+@attribute Words-all-in-upper-casenumeric
+@attribute Average-length-of-sentencesnumeric
+@attribute Average-length-of-tokensnumeric
+@attribute Number-of-sentencesnumeric
+
+@data
+2,1,1,0,0,0,0,0,0,0,0,5,0,1,0,1,2,10,3,2,4
