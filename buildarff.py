@@ -12,7 +12,7 @@ def feature_extraction():
 				"Coordinating-conjunctions","Past-tense-verbs","Future-tense-verbs",\
 				"Commas","colons-and-semi-colons","Dashes","Parentheses","Ellipses","Common-nouns",\
 				"Proper-nouns","Adverbs","wh-words","Modern-slang-acroynms","Words-all-in-upper-case",\
-				"Average-length-of-sentences","Average-length-of-tokens","Number-of-sentences"]
+				"Average-length-of-sentences","Average-length-of-tokens","Number-of-sentences","Class"]
 	fe = np.array(20*[0])
 	# load and open files
 	f = open(sys.argv[1],'r')
@@ -22,7 +22,8 @@ def feature_extraction():
 	# write attributes part to output file
 	output.write("@relation tweet_features\n\n")
 	for i in range(0,20):
-		output.write("@attribute " + features[i] + "numeric\n")
+		output.write("@attribute " + features[i] + " numeric\n")
+	output.write("@attribute " +features[20]+" {0,4}")
 	output.write("\n")
 	output.write("@data\n")
 	# extract features
