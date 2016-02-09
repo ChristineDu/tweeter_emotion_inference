@@ -1,25 +1,26 @@
 @relation tweet_features
 
-@attribute First-person-pronounsnumeric
-@attribute Second-person-pronounsnumeric
-@attribute Third-person-pronounsnumeric
-@attribute Coordinating-conjunctionsnumeric
-@attribute Past-tense-verbsnumeric
-@attribute Future-tense-verbsnumeric
-@attribute Commasnumeric
-@attribute colons-and-semi-colonsnumeric
-@attribute Dashesnumeric
-@attribute Parenthesesnumeric
-@attribute Ellipsesnumeric
-@attribute Common-nounsnumeric
-@attribute Proper-nounsnumeric
-@attribute Adverbsnumeric
-@attribute wh-wordsnumeric
-@attribute Modern-slang-acroynmsnumeric
-@attribute Words-all-in-upper-casenumeric
-@attribute Average-length-of-sentencesnumeric
-@attribute Average-length-of-tokensnumeric
-@attribute Number-of-sentencesnumeric
+@attribute First-person-pronouns numeric
+@attribute Second-person-pronouns numeric
+@attribute Third-person-pronouns numeric
+@attribute Coordinating-conjunctions numeric
+@attribute Past-tense-verbs numeric
+@attribute Future-tense-verbs numeric
+@attribute Commas numeric
+@attribute colons-and-semi-colons numeric
+@attribute Dashes numeric
+@attribute Parentheses numeric
+@attribute Ellipses numeric
+@attribute Common-nouns numeric
+@attribute Proper-nouns numeric
+@attribute Adverbs numeric
+@attribute wh-words numeric
+@attribute Modern-slang-acroynms numeric
+@attribute Words-all-in-upper-case numeric
+@attribute Average-length-of-sentences numeric
+@attribute Average-length-of-tokens numeric
+@attribute Number-of-sentences numeric
+@attribute Class {0,4} 
 
 @data
 1,0,1,1,0,0,0,0,0,0,0,4,0,0,0,0,0,5,4,2,0
