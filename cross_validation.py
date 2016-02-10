@@ -1,11 +1,11 @@
 def divide_files():
-	file_names = ["part1.txt", "part2.txt", "part3.txt", "part4.txt", "part5.txt", \
-				"part6.txt", "part7.txt", "part8.txt", "part9.txt", "part10.txt",]
+	file_names = ["part1.arff", "part2.arff", "part3.arff", "part4.arff", "part5.arff", \
+				"part6.arff", "part7.arff", "part8.arff", "part9.arff", "part10.arff",]
 	fin = open("all.arff",'r')
 	# cope with non-data lines in the begining
 	beginlines = []
 	k = 0
-	while k < 24:
+	while k < 25:
 		beginlines.append(fin.readline())
 		k += 1
 	# copy 550 data from class 0 to each file
@@ -13,7 +13,7 @@ def divide_files():
 	while i<10:
 		fout = open(file_names[i],'a')
 		k = 0
-		while k < 24:
+		while k < 25:
 			fout.write(beginlines[k])
 			k += 1
 		j = 0
@@ -37,15 +37,15 @@ def divide_files():
 	fin.close()
 
 def combine_files():
-	file_names = ["part1.txt", "part2.txt", "part3.txt", "part4.txt", "part5.txt", \
-				"part6.txt", "part7.txt", "part8.txt", "part9.txt", "part10.txt",]
-	file_names1 = ["train1.txt", "train2.txt", "train3.txt", "train4.txt", "train5.txt", \
-				"train6.txt", "train7.txt", "train8.txt", "train9.txt", "train10.txt",]
+	file_names = ["part1.arff", "part2.arff", "part3.arff", "part4.arff", "part5.arff", \
+				"part6.arff", "part7.arff", "part8.arff", "part9.arff", "part10.arff",]
+	file_names1 = ["train1.arff", "train2.arff", "train3.arff", "train4.arff", "train5.arff", \
+				"train6.arff", "train7.arff", "train8.arff", "train9.arff", "train10.arff",]
 	# cope with non-data lines in the begining
 	beginlines = []
 	fin = open(file_names[0],'r')
 	k = 0
-	while k < 24:
+	while k < 25:
 		beginlines.append(fin.readline())
 		k += 1
 	fin.close()
@@ -56,7 +56,7 @@ def combine_files():
 		fout = open(file_names1[i],'a')
 		# write begining lines
 		k = 0
-		while k < 24:
+		while k < 25:
 			fout.write(beginlines[k])
 			k += 1
 		# open readfiles one by one
@@ -67,7 +67,7 @@ def combine_files():
 				continue
 			fin = open(file_names[j])
 			k = 0
-			while k < 24:
+			while k < 25:
 				fin.readline()
 				k += 1
 			line = fin.readline()
@@ -85,5 +85,5 @@ def combine_files():
 
 
 if __name__ == '__main__':
-    #divide_files()
+    divide_files()
     combine_files()
