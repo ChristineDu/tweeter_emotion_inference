@@ -1,10 +1,19 @@
-import sys
+# CSC401H1 Winter 2016
+# Assignment 1 - buildarff.py
+
+# Group 69 / Samantha Halliday (c6hallid) and Yuqing Du (c5duyuqi)
+# parameters: <input.twt> <output.arff> <maximum tweets>
+# if <maximum tweets> is missing, use whole file
 import re
 import numpy as np
 
 def feature_extraction():
+	if sys.argv[1]="test.twt":
+		sum_tweets = 359
+	else: 
+		sum_tweets = 11000
 	if(len(sys.argv)<4):
-		twt_sum = 11000
+		twt_sum = sum_tweets
 	else: 
 		twt_sum = min(int(sys.argv[3])*2,11000)
 	# define features
@@ -95,7 +104,7 @@ def feature_extraction():
 			
 			
 		#extract partial training data from both classes
-		if (twt_sum!=11000 and txt_counts==(int(twt_sum)/2+1) and flag):
+		if (twt_sum!=sum_tweets and txt_counts==(int(twt_sum)/2+1) and flag):
 			flag=0
 			while txt_class!="4":
 				line = f.readline().rstrip()

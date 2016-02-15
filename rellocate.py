@@ -1,3 +1,6 @@
+# This script is for buildarff.py when loading test.twt if test.twt is not in the same format as train.twt. Which means, it delete class 2 and 
+# put class 0 tweets and class 4 tweets into two seperate files test0.twt and test4.twt. After this script, the two files need to be concatenated to 
+# rewrite the test.twt for buildarff.py to use. And the test.twt here is the final one.
 import re
 import numpy as np
 line_num=0
