@@ -1,0 +1,2014 @@
+
+J48 pruned tree
+------------------
+
+Second-person-pronouns <= 0
+|   Average-length-of-tokens <= 4
+|   |   Average-length-of-tokens <= 3
+|   |   |   Proper-nouns <= 1
+|   |   |   |   Adverbs <= 0
+|   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 3: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 3: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 0 (93.0/43.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 3: 0 (15.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 3: 4 (11.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 3: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5: 0 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5: 4 (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 6: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 6: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   Common-nouns <= 0: 0 (20.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Common-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (91.0/22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 1: 4 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 1: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (19.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 0 (11.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1: 0 (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 5: 4 (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 5: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 0 (66.0/16.0)
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 0 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 2: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 7: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   wh-words <= 0: 0 (97.0/23.0)
+|   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 4: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 4: 0 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   Average-length-of-tokens > 2
+|   |   |   |   |   |   |   |   |   |   Common-nouns <= 1: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   Common-nouns > 1
+|   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 5: 4 (20.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 5: 0 (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 0 (4.0)
+|   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (4.0)
+|   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 4 (31.0/13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   wh-words > 0: 0 (7.0/2.0)
+|   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 0 (19.0/5.0)
+|   |   |   |   |   |   |   |   |   |   Ellipses > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   colons-and-semi-colons > 0: 0 (6.0)
+|   |   |   |   |   Commas > 1
+|   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (8.0/1.0)
+|   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (5.0)
+|   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (10.0/1.0)
+|   |   |   |   |   |   Coordinating-conjunctions > 1: 0 (2.0)
+|   |   |   |   Adverbs > 0
+|   |   |   |   |   Adverbs <= 3
+|   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   Average-length-of-tokens <= 2
+|   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 0: 0 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   Commas > 0: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (8.0/1.0)
+|   |   |   |   |   |   |   Average-length-of-tokens > 2
+|   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   Past-tense-verbs <= 2
+|   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (362.0/93.0)
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Parentheses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 0 (18.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (8.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 4 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Parentheses > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1: 0 (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 4: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 7: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2: 4 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5: 0 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 0 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 0 (257.0/46.0)
+|   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Commas <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1: 0 (78.0/19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2: 4 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Commas > 2: 0 (9.0)
+|   |   |   |   |   |   |   |   |   Past-tense-verbs > 2
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 0 (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 0 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 3: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 3: 4 (3.0)
+|   |   |   |   |   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   Common-nouns <= 6
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 1: 0 (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 1: 4 (25.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 3
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 1: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   Common-nouns > 6: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   Adverbs <= 2: 0 (34.0/6.0)
+|   |   |   |   |   |   |   |   |   |   Adverbs > 2
+|   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 3: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 3: 4 (3.0)
+|   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 1
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 0 (35.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 4 (18.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 0 (31.0/6.0)
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1
+|   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 4 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 1
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   Parentheses <= 0
+|   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 4 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 1: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 13: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 3: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   Parentheses > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (4.0)
+|   |   |   |   |   |   |   colons-and-semi-colons > 0: 0 (11.0/2.0)
+|   |   |   |   |   Adverbs > 3: 0 (67.0/9.0)
+|   |   |   Proper-nouns > 1
+|   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   Average-length-of-sentences <= 15
+|   |   |   |   |   |   Proper-nouns <= 3
+|   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 4 (18.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 0 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 4 (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 4: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2: 0 (2.0)
+|   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 10: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 10: 0 (2.0)
+|   |   |   |   |   |   |   |   |   Commas > 0: 0 (4.0)
+|   |   |   |   |   |   |   colons-and-semi-colons > 0
+|   |   |   |   |   |   |   |   Average-length-of-sentences <= 6: 0 (2.0)
+|   |   |   |   |   |   |   |   Average-length-of-sentences > 6: 4 (3.0)
+|   |   |   |   |   |   Proper-nouns > 3
+|   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   Common-nouns <= 2: 4 (2.0)
+|   |   |   |   |   |   |   |   Common-nouns > 2: 0 (2.0)
+|   |   |   |   |   |   |   Ellipses > 0: 4 (6.0)
+|   |   |   |   |   Average-length-of-sentences > 15: 0 (17.0)
+|   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   Parentheses <= 1
+|   |   |   |   |   |   First-person-pronouns <= 1
+|   |   |   |   |   |   |   Past-tense-verbs <= 0: 4 (6.0/1.0)
+|   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (3.0)
+|   |   |   |   |   |   First-person-pronouns > 1: 4 (10.0)
+|   |   |   |   |   Parentheses > 1: 0 (3.0)
+|   |   Average-length-of-tokens > 3
+|   |   |   First-person-pronouns <= 1
+|   |   |   |   Modern-slang-acroynms <= 1
+|   |   |   |   |   Adverbs <= 0
+|   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   Common-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 2: 0 (21.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 2: 4 (82.0/36.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5: 0 (44.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5: 4 (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 7: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 3: 4 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 0: 0 (21.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 6: 0 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 6: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 0: 4 (11.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0: 4 (27.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 1: 0 (32.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (21.0/5.0)
+|   |   |   |   |   |   |   |   |   |   Common-nouns > 1
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (197.0/53.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 4 (18.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 0 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 4 (37.0/14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 0 (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1: 0 (37.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 4 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0: 4 (118.0/39.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 6: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 6: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 2: 0 (22.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 9: 4 (28.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 9: 0 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 6
+|   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 0 (25.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 4: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 4: 4 (20.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 2: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 4 (18.0/1.0)
+|   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (104.0/39.0)
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 4 (14.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 3: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 6: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 6: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Commas > 1: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1: 4 (19.0/5.0)
+|   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 0 (4.0)
+|   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   Number-of-sentences <= 4
+|   |   |   |   |   |   |   |   |   Parentheses <= 0
+|   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0: 0 (77.0/21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0: 4 (11.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 3: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 3: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 2: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 3: 0 (4.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (10.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 2: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 7: 0 (6.0)
+|   |   |   |   |   |   |   |   |   Parentheses > 0: 0 (9.0/2.0)
+|   |   |   |   |   |   |   |   Number-of-sentences > 4: 0 (9.0/1.0)
+|   |   |   |   |   |   Modern-slang-acroynms > 0
+|   |   |   |   |   |   |   Past-tense-verbs <= 1: 4 (50.0/11.0)
+|   |   |   |   |   |   |   Past-tense-verbs > 1: 0 (3.0)
+|   |   |   |   |   Adverbs > 0
+|   |   |   |   |   |   Proper-nouns <= 3
+|   |   |   |   |   |   |   Number-of-sentences <= 4
+|   |   |   |   |   |   |   |   Adverbs <= 2
+|   |   |   |   |   |   |   |   |   Common-nouns <= 2
+|   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1: 0 (26.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 4 (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (61.0/19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 4 (10.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 0: 4 (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 0 (83.0/18.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 1
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1: 0 (104.0/37.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 4 (14.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 13: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1: 0 (20.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1: 0 (30.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 4 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 0 (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 0: 0 (44.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 4 (13.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0: 4 (20.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   Common-nouns > 2
+|   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 7: 4 (34.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 7: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 12: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 12: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 8: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 8: 4 (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 4: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 4: 4 (11.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 1: 0 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 1: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 0 (31.0/13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1: 4 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (34.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 3: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 3: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 4 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Parentheses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 0 (12.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 20: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 20: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 8: 4 (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 8: 0 (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 8: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 6: 4 (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 6: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Parentheses > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 4 (15.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 4 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 4 (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (21.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 4 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 7: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 7: 4 (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 10: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 7: 0 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 5: 4 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 5: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1: 4 (33.0/12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 9: 0 (15.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 9: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 0 (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 1: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0: 0 (53.0/15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 4 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Parentheses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Parentheses > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 21
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0: 0 (22.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 0 (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 21: 0 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 4 (18.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0: 0 (14.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 1
+|   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1: 0 (40.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 6: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 6: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 0 (7.0)
+|   |   |   |   |   |   |   |   Adverbs > 2
+|   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   Adverbs <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 0: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 9: 0 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 9: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 8: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 8: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 4 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (47.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 8: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 8: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0: 0 (14.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 3: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 3: 0 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Adverbs > 4: 0 (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 1
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 6: 4 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 6
+|   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 0 (17.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   wh-words <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   wh-words > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0: 0 (4.0)
+|   |   |   |   |   |   |   Number-of-sentences > 4
+|   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   |   |   Common-nouns <= 4: 0 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   Common-nouns > 4: 4 (22.0/4.0)
+|   |   |   |   |   |   |   |   Coordinating-conjunctions > 1: 4 (3.0/1.0)
+|   |   |   |   |   |   Proper-nouns > 3
+|   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (17.0/1.0)
+|   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   Number-of-sentences <= 4
+|   |   |   |   |   |   |   |   |   Common-nouns <= 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   Common-nouns > 2: 0 (3.0)
+|   |   |   |   |   |   |   |   Number-of-sentences > 4: 4 (3.0)
+|   |   |   |   Modern-slang-acroynms > 1
+|   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   Number-of-sentences <= 1: 0 (11.0)
+|   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   Common-nouns <= 3: 4 (2.0)
+|   |   |   |   |   |   |   |   |   Common-nouns > 3: 0 (7.0/1.0)
+|   |   |   |   |   |   |   |   Commas > 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   Future-tense-verbs > 0: 0 (2.0)
+|   |   |   |   |   Proper-nouns > 1: 4 (2.0)
+|   |   |   First-person-pronouns > 1
+|   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   Average-length-of-sentences <= 22
+|   |   |   |   |   |   |   Common-nouns <= 6
+|   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 0 (152.0/39.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 4 (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2: 4 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 0 (21.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 0 (24.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 2: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2: 0 (84.0/16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 3: 0 (8.0)
+|   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Commas <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 1: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 6: 4 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 1: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 4 (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 0: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 3: 4 (6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 3: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1: 0 (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Commas > 2: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2: 0 (14.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 9: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 9: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0
+|   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 1
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 0 (40.0/18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0: 0 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 3: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1: 4 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 4 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 5: 0 (20.0/4.0)
+|   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 1
+|   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 3: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 3: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 3: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   First-person-pronouns <= 3
+|   |   |   |   |   |   |   |   |   |   Adverbs <= 3
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1: 0 (20.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2: 4 (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 4 (24.0/6.0)
+|   |   |   |   |   |   |   |   |   |   Adverbs > 3: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   First-person-pronouns > 3: 0 (10.0/1.0)
+|   |   |   |   |   |   |   Common-nouns > 6
+|   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 3
+|   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 0: 4 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 2: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 3: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   wh-words > 0: 4 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   First-person-pronouns > 3
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 8: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 8: 4 (2.0)
+|   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 0: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 3: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 1: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (12.0/2.0)
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1
+|   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 0 (12.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   Ellipses > 1
+|   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 0 (6.0)
+|   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   Average-length-of-sentences > 22
+|   |   |   |   |   |   |   Commas <= 2: 0 (35.0/3.0)
+|   |   |   |   |   |   |   Commas > 2: 4 (2.0)
+|   |   |   |   |   colons-and-semi-colons > 0
+|   |   |   |   |   |   First-person-pronouns <= 3
+|   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   Common-nouns <= 4: 0 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   Common-nouns > 4: 4 (22.0/6.0)
+|   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (6.0)
+|   |   |   |   |   |   |   Commas > 1: 4 (4.0)
+|   |   |   |   |   |   First-person-pronouns > 3: 0 (5.0)
+|   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   Modern-slang-acroynms <= 1
+|   |   |   |   |   |   |   Parentheses <= 0
+|   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 0 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 0: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 4 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 1: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 2: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 7: 4 (17.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 7: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 1: 0 (3.0)
+|   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 1
+|   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1: 4 (11.0)
+|   |   |   |   |   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 1: 0 (4.0)
+|   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 1: 0 (18.0/2.0)
+|   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 1: 4 (3.0/1.0)
+|   |   |   |   |   |   |   Parentheses > 0
+|   |   |   |   |   |   |   |   First-person-pronouns <= 2: 4 (4.0)
+|   |   |   |   |   |   |   |   First-person-pronouns > 2
+|   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 6: 0 (4.0)
+|   |   |   |   |   |   |   |   |   Average-length-of-sentences > 6: 4 (5.0/1.0)
+|   |   |   |   |   |   Modern-slang-acroynms > 1
+|   |   |   |   |   |   |   Average-length-of-sentences <= 4: 0 (2.0)
+|   |   |   |   |   |   |   Average-length-of-sentences > 4: 4 (9.0/1.0)
+|   |   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   |   Average-length-of-sentences <= 9: 4 (13.0/1.0)
+|   |   |   |   |   |   Average-length-of-sentences > 9
+|   |   |   |   |   |   |   Number-of-sentences <= 1: 4 (3.0)
+|   |   |   |   |   |   |   Number-of-sentences > 1: 0 (4.0)
+|   Average-length-of-tokens > 4
+|   |   First-person-pronouns <= 1
+|   |   |   Average-length-of-sentences <= 15
+|   |   |   |   Adverbs <= 0
+|   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   Number-of-sentences <= 3
+|   |   |   |   |   |   |   |   Common-nouns <= 1
+|   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (30.0/14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 1: 0 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1: 0 (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 1: 0 (18.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5: 4 (31.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 0: 4 (215.0/86.0)
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 6: 4 (170.0/54.0)
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (28.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0: 4 (13.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   Common-nouns <= 0: 0 (17.0/4.0)
+|   |   |   |   |   |   |   |   |   |   Common-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 1: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 3: 4 (17.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 3: 0 (13.0/3.0)
+|   |   |   |   |   |   |   |   Common-nouns > 1
+|   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 3: 4 (383.0/89.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 3
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 4: 0 (18.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 4 (27.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 5: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 5: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 1: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 8: 4 (41.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 8: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 6: 4 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 3: 4 (31.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 0 (50.0/19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (13.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 2: 4 (67.0/21.0)
+|   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 0 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 5: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 5: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 4 (44.0/13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 0 (10.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 3: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 3: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 7: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (7.0)
+|   |   |   |   |   |   |   Number-of-sentences > 3: 4 (26.0/4.0)
+|   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1: 0 (56.0/18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 0 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 4 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (10.0)
+|   |   |   |   |   |   |   |   Ellipses > 0: 0 (7.0/1.0)
+|   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (9.0/1.0)
+|   |   |   |   |   Modern-slang-acroynms > 0: 4 (49.0/10.0)
+|   |   |   |   Adverbs > 0
+|   |   |   |   |   Common-nouns <= 3
+|   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   Average-length-of-tokens <= 5
+|   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   Common-nouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 0 (98.0/31.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0: 0 (39.0/13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (22.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 1: 4 (15.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 1: 0 (19.0/7.0)
+|   |   |   |   |   |   |   |   |   |   Common-nouns > 2
+|   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0: 4 (57.0/24.0)
+|   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 0 (6.0/2.0)
+|   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (31.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 10: 0 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 10: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (8.0)
+|   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 2: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (2.0)
+|   |   |   |   |   |   |   Average-length-of-tokens > 5
+|   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (101.0/34.0)
+|   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 2: 4 (22.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 2: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 0 (5.0)
+|   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 1: 0 (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 1: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 6: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 6
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 3: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 3: 4 (4.0)
+|   |   |   |   |   |   |   |   |   Average-length-of-tokens > 6: 0 (7.0)
+|   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   Words-all-in-upper-case <= 1: 0 (62.0/18.0)
+|   |   |   |   |   |   |   Words-all-in-upper-case > 1: 4 (4.0/1.0)
+|   |   |   |   |   Common-nouns > 3
+|   |   |   |   |   |   Common-nouns <= 7
+|   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 5: 4 (41.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 5: 0 (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 5: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 5: 4 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 5: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 11: 4 (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 4 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 0 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 8: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 8: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0: 0 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   Proper-nouns > 1: 4 (13.0/1.0)
+|   |   |   |   |   |   |   |   Modern-slang-acroynms > 0
+|   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 4 (6.0)
+|   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 1: 4 (46.0/12.0)
+|   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 1: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   Adverbs <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 8: 4 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 8: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Adverbs > 2: 4 (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 0 (4.0)
+|   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 0 (17.0/4.0)
+|   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   Common-nouns > 7
+|   |   |   |   |   |   |   Ellipses <= 0: 0 (24.0/5.0)
+|   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   Past-tense-verbs <= 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (2.0)
+|   |   |   Average-length-of-sentences > 15
+|   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   Parentheses <= 0
+|   |   |   |   |   |   Modern-slang-acroynms <= 1: 0 (46.0/11.0)
+|   |   |   |   |   |   Modern-slang-acroynms > 1: 4 (2.0)
+|   |   |   |   |   Parentheses > 0
+|   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (3.0/1.0)
+|   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (3.0)
+|   |   |   |   Past-tense-verbs > 1: 4 (6.0/2.0)
+|   |   First-person-pronouns > 1
+|   |   |   Average-length-of-tokens <= 5
+|   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   Common-nouns <= 1: 0 (7.0/1.0)
+|   |   |   |   |   |   Common-nouns > 1
+|   |   |   |   |   |   |   Number-of-sentences <= 3
+|   |   |   |   |   |   |   |   First-person-pronouns <= 2
+|   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   Dashes <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 0: 0 (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 7: 0 (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Dashes > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 6: 4 (6.0)
+|   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (8.0)
+|   |   |   |   |   |   |   |   |   Adverbs > 1
+|   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (5.0)
+|   |   |   |   |   |   |   |   First-person-pronouns > 2
+|   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (5.0)
+|   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (7.0/2.0)
+|   |   |   |   |   |   |   Number-of-sentences > 3: 0 (5.0/1.0)
+|   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   Number-of-sentences <= 4
+|   |   |   |   |   |   |   Adverbs <= 0
+|   |   |   |   |   |   |   |   Commas <= 0: 4 (2.0)
+|   |   |   |   |   |   |   |   Commas > 0: 0 (2.0)
+|   |   |   |   |   |   |   Adverbs > 0: 0 (13.0)
+|   |   |   |   |   |   Number-of-sentences > 4: 4 (3.0)
+|   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   Ellipses <= 0: 0 (25.0/2.0)
+|   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   Past-tense-verbs <= 1: 0 (8.0/1.0)
+|   |   |   |   |   |   |   Past-tense-verbs > 1: 4 (3.0)
+|   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (4.0)
+|   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (4.0/1.0)
+|   |   |   |   |   |   |   Past-tense-verbs > 1: 4 (2.0)
+|   |   |   |   |   |   Ellipses > 0: 0 (2.0)
+|   |   |   Average-length-of-tokens > 5
+|   |   |   |   Commas <= 0
+|   |   |   |   |   Common-nouns <= 3: 4 (5.0/2.0)
+|   |   |   |   |   Common-nouns > 3: 0 (2.0)
+|   |   |   |   Commas > 0: 4 (5.0)
+Second-person-pronouns > 0
+|   First-person-pronouns <= 1
+|   |   Adverbs <= 0
+|   |   |   Second-person-pronouns <= 2
+|   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   Coordinating-conjunctions <= 0: 4 (315.0/52.0)
+|   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   Number-of-sentences <= 1: 4 (15.0)
+|   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   Number-of-sentences <= 3
+|   |   |   |   |   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 12: 4 (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 12: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 0 (7.0/2.0)
+|   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (6.0)
+|   |   |   |   |   |   |   |   Past-tense-verbs > 1: 4 (2.0)
+|   |   |   |   |   |   |   Number-of-sentences > 3: 4 (5.0)
+|   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   Common-nouns <= 1
+|   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   Proper-nouns <= 1: 0 (22.0/8.0)
+|   |   |   |   |   |   |   |   |   Proper-nouns > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (4.0/1.0)
+|   |   |   |   |   |   |   Future-tense-verbs > 0: 4 (4.0)
+|   |   |   |   |   |   Common-nouns > 1: 4 (198.0/47.0)
+|   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   Average-length-of-tokens <= 3: 0 (12.0/3.0)
+|   |   |   |   |   |   Average-length-of-tokens > 3
+|   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   Number-of-sentences <= 3
+|   |   |   |   |   |   |   |   |   |   Second-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0: 4 (20.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   Second-person-pronouns > 1: 4 (8.0)
+|   |   |   |   |   |   |   |   |   Number-of-sentences > 3: 0 (2.0)
+|   |   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 8: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 8: 4 (3.0)
+|   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 0 (7.0/2.0)
+|   |   |   |   |   |   |   colons-and-semi-colons > 0: 4 (3.0)
+|   |   |   Second-person-pronouns > 2: 4 (34.0/2.0)
+|   |   Adverbs > 0
+|   |   |   wh-words <= 0
+|   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   Adverbs <= 2
+|   |   |   |   |   |   Common-nouns <= 5
+|   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (107.0/23.0)
+|   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 6: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 9: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 3: 0 (2.0)
+|   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 3: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 3
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 5: 4 (17.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 5: 0 (2.0)
+|   |   |   |   |   |   |   |   First-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   Parentheses <= 0
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 1
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 3: 0 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 3: 4 (68.0/16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (27.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 4 (21.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 4: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 1
+|   |   |   |   |   |   |   |   |   |   |   Commas <= 0: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   Commas > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   Parentheses > 0
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (2.0)
+|   |   |   |   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   |   |   |   Common-nouns <= 4: 4 (24.0/3.0)
+|   |   |   |   |   |   |   |   Common-nouns > 4: 0 (2.0)
+|   |   |   |   |   |   Common-nouns > 5: 4 (76.0/11.0)
+|   |   |   |   |   Adverbs > 2
+|   |   |   |   |   |   Average-length-of-tokens <= 4
+|   |   |   |   |   |   |   Average-length-of-sentences <= 18
+|   |   |   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 3: 0 (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 3
+|   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Second-person-pronouns <= 1: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Second-person-pronouns > 1: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 0 (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 0: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   Commas > 1: 4 (6.0/1.0)
+|   |   |   |   |   |   |   Average-length-of-sentences > 18: 0 (6.0)
+|   |   |   |   |   |   Average-length-of-tokens > 4
+|   |   |   |   |   |   |   Common-nouns <= 6: 4 (9.0)
+|   |   |   |   |   |   |   Common-nouns > 6: 0 (2.0)
+|   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   Past-tense-verbs <= 1
+|   |   |   |   |   |   |   |   Second-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (32.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 3: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 3: 0 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 4: 0 (3.0)
+|   |   |   |   |   |   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 9: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 9: 0 (6.0)
+|   |   |   |   |   |   |   |   Second-person-pronouns > 1
+|   |   |   |   |   |   |   |   |   Third-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   Adverbs <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 0 (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 1: 4 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   Adverbs > 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 2: 4 (10.0/2.0)
+|   |   |   |   |   |   |   |   |   Third-person-pronouns > 1: 4 (2.0)
+|   |   |   |   |   |   |   Past-tense-verbs > 1
+|   |   |   |   |   |   |   |   Past-tense-verbs <= 2
+|   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 0 (15.0/2.0)
+|   |   |   |   |   |   |   |   |   Number-of-sentences > 2: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   Past-tense-verbs > 2: 0 (3.0)
+|   |   |   |   |   |   Proper-nouns > 0
+|   |   |   |   |   |   |   Number-of-sentences <= 3
+|   |   |   |   |   |   |   |   Common-nouns <= 1: 0 (3.0)
+|   |   |   |   |   |   |   |   Common-nouns > 1: 4 (36.0/7.0)
+|   |   |   |   |   |   |   Number-of-sentences > 3
+|   |   |   |   |   |   |   |   Common-nouns <= 4: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   Common-nouns > 4
+|   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 0 (6.0)
+|   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   Average-length-of-sentences <= 3: 0 (3.0/1.0)
+|   |   |   |   |   |   |   Average-length-of-sentences > 3: 4 (25.0/3.0)
+|   |   |   |   |   |   Ellipses > 1
+|   |   |   |   |   |   |   Commas <= 0: 0 (7.0/1.0)
+|   |   |   |   |   |   |   Commas > 0: 4 (3.0)
+|   |   |   wh-words > 0
+|   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   Common-nouns <= 1
+|   |   |   |   |   |   Commas <= 0: 0 (14.0/1.0)
+|   |   |   |   |   |   Commas > 0: 4 (3.0/1.0)
+|   |   |   |   |   Common-nouns > 1
+|   |   |   |   |   |   Commas <= 1
+|   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Second-person-pronouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 7: 4 (15.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Second-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Second-person-pronouns > 1: 4 (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Second-person-pronouns > 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 0: 4 (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0
+|   |   |   |   |   |   |   |   |   |   wh-words <= 1
+|   |   |   |   |   |   |   |   |   |   |   Second-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 1: 0 (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 4: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Second-person-pronouns > 1
+|   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 2: 4 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   wh-words > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   Number-of-sentences <= 1: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   Number-of-sentences > 1
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 1: 4 (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (7.0)
+|   |   |   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   |   |   Modern-slang-acroynms <= 2: 0 (38.0/10.0)
+|   |   |   |   |   |   |   |   Modern-slang-acroynms > 2: 4 (2.0)
+|   |   |   |   |   |   Commas > 1
+|   |   |   |   |   |   |   Past-tense-verbs <= 1: 4 (13.0/1.0)
+|   |   |   |   |   |   |   Past-tense-verbs > 1: 0 (2.0)
+|   |   |   |   Future-tense-verbs > 0: 4 (15.0/4.0)
+|   First-person-pronouns > 1
+|   |   Past-tense-verbs <= 1
+|   |   |   Average-length-of-tokens <= 3
+|   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   Adverbs <= 0
+|   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 4 (20.0/4.0)
+|   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   Third-person-pronouns > 0: 0 (6.0/1.0)
+|   |   |   |   |   |   Adverbs > 0
+|   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   First-person-pronouns <= 3
+|   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 1
+|   |   |   |   |   |   |   |   |   |   |   Second-person-pronouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0: 4 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 1: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 2: 4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   Second-person-pronouns > 1
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 1: 4 (4.0)
+|   |   |   |   |   |   |   |   |   First-person-pronouns > 3: 0 (2.0)
+|   |   |   |   |   |   |   |   Future-tense-verbs > 0
+|   |   |   |   |   |   |   |   |   wh-words <= 0: 0 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   wh-words > 0: 4 (2.0)
+|   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   Number-of-sentences <= 3: 0 (15.0/1.0)
+|   |   |   |   |   |   |   |   Number-of-sentences > 3
+|   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0: 4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 0 (2.0)
+|   |   |   |   |   Past-tense-verbs > 0
+|   |   |   |   |   |   Words-all-in-upper-case <= 5
+|   |   |   |   |   |   |   Coordinating-conjunctions <= 0
+|   |   |   |   |   |   |   |   Proper-nouns <= 0
+|   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 1
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 8: 0 (10.0)
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 8
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 7: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 7: 0 (2.0)
+|   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   Proper-nouns > 0: 0 (7.0)
+|   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 0 (7.0/1.0)
+|   |   |   |   |   |   Words-all-in-upper-case > 5: 4 (2.0)
+|   |   |   |   Coordinating-conjunctions > 1
+|   |   |   |   |   Third-person-pronouns <= 0: 4 (7.0)
+|   |   |   |   |   Third-person-pronouns > 0: 0 (3.0/1.0)
+|   |   |   Average-length-of-tokens > 3
+|   |   |   |   Words-all-in-upper-case <= 1
+|   |   |   |   |   Modern-slang-acroynms <= 1
+|   |   |   |   |   |   Second-person-pronouns <= 1
+|   |   |   |   |   |   |   wh-words <= 0
+|   |   |   |   |   |   |   |   Number-of-sentences <= 3
+|   |   |   |   |   |   |   |   |   Ellipses <= 0
+|   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5: 4 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 10: 4 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 10: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Third-person-pronouns > 0: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Adverbs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0: 0 (22.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0: 4 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 3: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 7: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 7: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Proper-nouns > 1: 4 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Words-all-in-upper-case > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 5: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 5: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   Modern-slang-acroynms > 0
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 8: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 8: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 4: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 5: 4 (9.0)
+|   |   |   |   |   |   |   |   |   Ellipses > 0
+|   |   |   |   |   |   |   |   |   |   Common-nouns <= 6
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Ellipses <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns <= 2: 4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   First-person-pronouns > 2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Common-nouns > 4: 4 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 7: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Commas > 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Ellipses > 1: 4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 1: 4 (6.0)
+|   |   |   |   |   |   |   |   |   |   Common-nouns > 6: 0 (5.0)
+|   |   |   |   |   |   |   |   Number-of-sentences > 3: 4 (14.0/2.0)
+|   |   |   |   |   |   |   wh-words > 0
+|   |   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 5: 0 (6.0)
+|   |   |   |   |   |   |   |   |   Average-length-of-sentences > 5
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 22
+|   |   |   |   |   |   |   |   |   |   |   Commas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences <= 2: 4 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number-of-sentences > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Average-length-of-tokens > 4: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 1: 4 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   wh-words > 1: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Past-tense-verbs > 0: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 22: 0 (4.0)
+|   |   |   |   |   |   |   |   colons-and-semi-colons > 0: 4 (4.0)
+|   |   |   |   |   |   Second-person-pronouns > 1
+|   |   |   |   |   |   |   colons-and-semi-colons <= 0
+|   |   |   |   |   |   |   |   Words-all-in-upper-case <= 0
+|   |   |   |   |   |   |   |   |   Commas <= 0: 4 (24.0/4.0)
+|   |   |   |   |   |   |   |   |   Commas > 0
+|   |   |   |   |   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions <= 0: 4 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Coordinating-conjunctions > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   wh-words <= 0: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   wh-words > 0: 4 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Common-nouns > 7: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   Future-tense-verbs > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   Words-all-in-upper-case > 0: 4 (9.0)
+|   |   |   |   |   |   |   colons-and-semi-colons > 0
+|   |   |   |   |   |   |   |   Modern-slang-acroynms <= 0: 0 (3.0)
+|   |   |   |   |   |   |   |   Modern-slang-acroynms > 0: 4 (2.0)
+|   |   |   |   |   Modern-slang-acroynms > 1
+|   |   |   |   |   |   Commas <= 0: 0 (17.0/6.0)
+|   |   |   |   |   |   Commas > 0: 4 (3.0)
+|   |   |   |   Words-all-in-upper-case > 1
+|   |   |   |   |   Common-nouns <= 4
+|   |   |   |   |   |   Average-length-of-sentences <= 6: 0 (3.0)
+|   |   |   |   |   |   Average-length-of-sentences > 6: 4 (3.0)
+|   |   |   |   |   Common-nouns > 4: 4 (9.0)
+|   |   Past-tense-verbs > 1
+|   |   |   colons-and-semi-colons <= 0
+|   |   |   |   Commas <= 0: 0 (51.0/14.0)
+|   |   |   |   Commas > 0
+|   |   |   |   |   Third-person-pronouns <= 1
+|   |   |   |   |   |   Future-tense-verbs <= 0
+|   |   |   |   |   |   |   Modern-slang-acroynms <= 0
+|   |   |   |   |   |   |   |   Past-tense-verbs <= 2
+|   |   |   |   |   |   |   |   |   Adverbs <= 0
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences <= 9: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   Average-length-of-sentences > 9: 4 (2.0)
+|   |   |   |   |   |   |   |   |   Adverbs > 0: 4 (8.0)
+|   |   |   |   |   |   |   |   Past-tense-verbs > 2: 0 (4.0/1.0)
+|   |   |   |   |   |   |   Modern-slang-acroynms > 0: 0 (10.0/2.0)
+|   |   |   |   |   |   Future-tense-verbs > 0: 0 (2.0)
+|   |   |   |   |   Third-person-pronouns > 1: 4 (3.0)
+|   |   |   colons-and-semi-colons > 0
+|   |   |   |   Commas <= 0: 0 (3.0/1.0)
+|   |   |   |   Commas > 0: 4 (4.0)
+
+Number of Leaves  : 	983
+
+Size of the tree : 	1965
+
+
+Time taken to build model: 1.44 seconds
+Time taken to test model on training data: 0.12 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        8719               79.2636 %
+Incorrectly Classified Instances      2281               20.7364 %
+Kappa statistic                          0.5853
+Mean absolute error                      0.2977
+Root mean squared error                  0.3858
+Relative absolute error                 59.5476 %
+Root relative squared error             77.1671 %
+Total Number of Instances            11000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4336 1164 |    a = 0
+ 1117 4383 |    b = 4
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         217               60.4457 %
+Incorrectly Classified Instances       142               39.5543 %
+Kappa statistic                          0.208 
+Mean absolute error                      0.435 
+Root mean squared error                  0.547 
+Relative absolute error                 86.9907 %
+Root relative squared error            109.4022 %
+Total Number of Instances              359     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 100  77 |   a = 0
+  65 117 |   b = 4
+

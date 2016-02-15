@@ -1,0 +1,70 @@
+n=500:
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 21 Class):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.0233     1 First-person-pronouns
+ 0.01822   19 Average-length-of-tokens
+ 0.01577   14 Adverbs
+ 0.01452    2 Second-person-pronouns
+ 0.01156   13 Proper-nouns
+ 0.00999    5 Past-tense-verbs
+ 0          7 Commas
+ 0          8 colons-and-semi-colons
+ 0          4 Coordinating-conjunctions
+ 0          6 Future-tense-verbs
+ 0          3 Third-person-pronouns
+ 0         17 Words-all-in-upper-case
+ 0         16 Modern-slang-acroynms
+ 0         20 Number-of-sentences
+ 0         18 Average-length-of-sentences
+ 0         10 Parentheses
+ 0          9 Dashes
+ 0         15 wh-words
+ 0         11 Ellipses
+ 0         12 Common-nouns
+
+Selected attributes: 1,19,14,2,13,5,7,8,4,6,3,17,16,20,18,10,9,15,11,12 : 20
+
+n=5500:
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 21 Class):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.021628   19 Average-length-of-tokens
+ 0.017464    2 Second-person-pronouns
+ 0.014842   14 Adverbs
+ 0.013232    1 First-person-pronouns
+ 0.006275    5 Past-tense-verbs
+ 0.00533    18 Average-length-of-sentences
+ 0.002757   11 Ellipses
+ 0.002753    3 Third-person-pronouns
+ 0.002647   13 Proper-nouns
+ 0.002106   12 Common-nouns
+ 0.001193   17 Words-all-in-upper-case
+ 0.00095     4 Coordinating-conjunctions
+ 0.000711   10 Parentheses
+ 0.000583   15 wh-words
+ 0          20 Number-of-sentences
+ 0          16 Modern-slang-acroynms
+ 0           6 Future-tense-verbs
+ 0           7 Commas
+ 0           8 colons-and-semi-colons
+ 0           9 Dashes
+
+Selected attributes: 19,2,14,1,5,18,11,3,13,12,17,4,10,15,20,16,6,7,8,9 : 20
+
+Explanation:
+Features like First-person-pronouns, Average-length-of-tokens, Second-person-pronouns, Adverbs remain in top 5 at both low and top amount of data. A possible explanation could be that people in good mood tend to use more first and second person pronouns, adverbs and also tend to use shorter tokens. However, people in bad mood tend to do the opposite. That's why the information gain for these features are pretty high.
