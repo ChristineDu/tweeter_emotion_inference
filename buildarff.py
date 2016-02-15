@@ -6,9 +6,9 @@
 # if <maximum tweets> is missing, use whole file
 import re
 import numpy as np
-
+import sys
 def feature_extraction():
-	if sys.argv[1]="test.twt":
+	if sys.argv[1]=="test.twt":
 		sum_tweets = 359
 	else: 
 		sum_tweets = 11000
@@ -32,8 +32,7 @@ def feature_extraction():
 	output.write("@relation tweet_features\n\n")
 	for i in range(0,20):
 		output.write("@attribute " + features[i] + " numeric\n")
-	output.write("@attribute " +features[20]+" {0,4}")
-	output.write("\n")
+	output.write("@attribute " +features[20]+" {0,4}\n\n")
 	output.write("@data\n")
 	# extract features
 	txt_counts = 0
