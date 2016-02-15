@@ -1,3 +1,5 @@
+# Cross validation for task 3
+
 from scipy import stats
 
 def divide_files():

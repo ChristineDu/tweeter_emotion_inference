@@ -113,16 +113,16 @@ def feature_extraction():
 
 
 def readfiles():
-	f1 = open("wordlists/First-person",'r')
+	f1 = open("/u/cs401/Wordlists/First-person",'r')
 	first_person = f1.read().rstrip()
 	f1.close()
-	f2 = open("wordlists/Second-person",'r')
+	f2 = open("/u/cs401/Wordlists/Second-person",'r')
 	second_person = f2.read().rstrip()
 	f2.close()
-	f3 = open("wordlists/Third-person",'r')
+	f3 = open("/u/cs401/Wordlists/Third-person",'r')
 	third_person = f3.read().rstrip()
 	f3.close()
-	f4 = open("wordlists/Slang",'r')
+	f4 = open("/u/cs401/Wordlists/Slang",'r')
 	slang = f4.read().rstrip()
 	f4.close()
 	wordlist = {
